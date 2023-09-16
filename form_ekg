@@ -84,13 +84,13 @@
             <th style="bold">HASIL PEMERIKSAAN</th>
         </tr>
         <tr>
-            <td><textarea id="hasil_pemeriksaan" name="hasil_pemeriksaan" rows="20" cols="98"></textarea></td>
+            <td><textarea id="hasil_pemeriksaan" name="hasil_pemeriksaan" rows="20" cols="80"></textarea></td>
         </tr>
         <tr>
             <th style="bold">KESAN</th>
         </tr>
         <tr>
-            <td><textarea id="hasil_pemeriksaan" name="hasil_pemeriksaan" rows="20" cols="98"></textarea></td>
+            <td><textarea id="hasil_pemeriksaan" name="hasil_pemeriksaan" rows="20" cols="80"></textarea></td>
         </tr>
     </table>  
 </body>
