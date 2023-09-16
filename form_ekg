@@ -6,7 +6,7 @@
     <title>Form EKG</title>
 </head>
 <body>
-    <table align="left">
+    <table align="right">
         <tr>
             <td rowspan="4"><img src="Picture1.png" alt="" width="150"></td>
         </tr>
