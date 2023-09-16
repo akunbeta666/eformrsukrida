@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form EKG</title>
+</head>
+<body>
+    <table align="left">
+        <tr>
+            <td rowspan="4"><img src="Picture1.png" alt="" width="150"></td>
+        </tr>
+    </table>
+    <table border="1" width="280px" align="right">
+        <tr>
+            <td>Nama</td>
+            <td>:</td>
+            <td><input type="text" id="nama" name="nama" readonly></td>
+        </tr>
+        <tr>
+            <td>No. RM</td>
+            <td>:</td>
+            <td><input type="text" id="norm" name="norm" readonly></td>
+        </tr>
+        <tr>
+            <td>Tanggal Lahir</td>
+            <td>:</td>
+            <td><input type="text" id="tgllahir" name="tgllahir" readonly></td>
+        </tr>
+    </table>
+    <br/><br/><br/><br/><br/><br/>
+    <table border="1" width="700px" align="center">
+        <tr>
+            <th colspan="6" style="font-weight: bold; text-decoration: underline;">HASIL PEMERIKSAAN ULTRASONOGRAPHY (USG)</th>
+        </tr>
+        <tr>
+            <td>Tanggal Pemeriksaan</td>
+            <td>:</td>
+            <td><input type="date" id="tanggal" name="tanggal"></td>
+            <td>Dokter</td>
+            <td>:</td>
+            <td><input type="text" id="dokter" name="dokter"></td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>:</td>
+            <td>
+                <select name="JK">
+                    <option value="Laki-Laki">Laki-Laki</option>
+                    <option value="Perempuan">Perempuan</option>
+                </select>
+            </td>
+            <td>Ruangan</td>
+            <td>:</td>
+            <td><input type="text" id="ruangan" name="ruangan"></td>
+        </tr>
+        <tr>
+            <td>Pembayar</td>
+            <td>:</td>
+            <td>
+                <select name="PENJAMIN">
+                    <option value="umum">Umum</option>
+                    <option value="JKN">JKN</option>
+                    <option value="Asuransi">Asuransi</option>
+                    <option value="Jaminan">Jaminan</option>
+                </select>
+            </td>
+            <td>Pemeriksaan</td>
+            <td>:</td>
+            <td><input type="text" id="diagnosa" name="diagnosa"></td>
+        </tr>
+        <tr>
+            <td>No. Order</td>
+            <td>:</td>
+            <td><input type="text" id="nomor_order" name="nomor_order"></td>
+            <td>Diagnosa</td>
+            <td>:</td>
+            <td><input type="text" id="diagnosa" name="diagnosa"></td>
+        </tr>
+    </table>
+    <br/>
+    <table border="1" width="700px" align="center">
+        <tr>
+            <th style="bold">HASIL PEMERIKSAAN</th>
+        </tr>
+        <tr>
+            <td><textarea id="hasil_pemeriksaan" name="hasil_pemeriksaan" rows="20" cols="98"></textarea></td>
+        </tr>
+        <tr>
+            <th style="bold">KESAN</th>
+        </tr>
+        <tr>
+            <td><textarea id="hasil_pemeriksaan" name="hasil_pemeriksaan" rows="20" cols="98"></textarea></td>
+        </tr>
+    </table>  
+</body>
+</html>
