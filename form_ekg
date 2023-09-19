@@ -6,7 +6,7 @@
     <title>Form EKG</title>
 </head>
 <body>
-    <table align="right">
+    <table style="border: 1px;" align="right">
         <tr>
             <td rowspan="4"><img src="Picture1.png" alt="" width="150"></td>
         </tr>
@@ -81,16 +81,16 @@
     <br/>
     <table border="1" width="700px" align="center">
         <tr>
-            <th style="bold">HASIL PEMERIKSAAN</th>
+            <th><b>HASIL PEMERIKSAAN</b></th>
         </tr>
         <tr>
-            <td><textarea id="hasil_pemeriksaan" name="hasil_pemeriksaan" rows="20" cols="98"></textarea></td>
+            <td><textarea id="hasil_pemeriksaan" name="hasil_pemeriksaan" rows="20" cols="80"></textarea></td>
         </tr>
         <tr>
-            <th style="bold">KESAN</th>
+            <th><b>KESAN</b></th>
         </tr>
         <tr>
-            <td><textarea id="hasil_pemeriksaan" name="hasil_pemeriksaan" rows="20" cols="98"></textarea></td>
+            <td><textarea id="hasil_pemeriksaan" name="hasil_pemeriksaan" rows="20" cols="80"></textarea></td>
         </tr>
     </table>  
 </body>
