@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form EKG</title>
+</head>
+<body>
+    <table align="right">
+        <tr>
+            <td rowspan="4"><img src="Picture1.png" alt="" width="150"></td>
+        </tr>
+    </table>
+    <table border="1" width="280px" align="right">
+        <tr>
+            <td>Nama</td>
+            <td>:</td>
+            <td><input type="text" id="nama" name="nama" readonly></td>
+        </tr>
+        <tr>
+            <td>No. RM</td>
+            <td>:</td>
+            <td><input type="text" id="norm" name="norm" readonly></td>
+        </tr>
+        <tr>
+            <td>Tanggal Lahir</td>
+            <td>:</td>
+            <td><input type="text" id="tgllahir" name="tgllahir" readonly></td>
+        </tr>
+    </table>
+    <br/><br/><br/><br/><br/><br/>
+    <table border="1" width="700px" align="center">
+        <tr>
+            <th colspan="6" style="font-weight: bold; text-decoration: underline;">LAPORAN DOPPLER CAROTIS RUMAH SAKIT UKRIDA</th>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>:</td>
+            <td>
+                <select name="JK">
+                    <option value="Laki-Laki">Laki-Laki</option>
+                    <option value="Perempuan">Perempuan</option>
+                </select>
+            </td>
+            <td>Dokter Jantung</td>
+            <td>:</td>
+            <td><input type="text" id="dokter" name="dokter" value="Apakah bisa menarik data DPJP spesialis jantung?"></td>
+        </tr>
+        <tr>
+            <td>Usia</td>
+            <td>:</td>
+            <td><input type="text" id="dokter" name="dokter" value="Apakah bisa menarik data usia pasien?"></td>
+            <td>Tanggal Pemeriksaan</td>
+            <td>:</td>
+            <td><input type="date" id="ruangan" name="ruangan"></td>
+        </tr>
+        <tr>
+            <td>Diagnosa</td>
+            <td>:</td>
+            <td><input type="text" id="diagnosa" name="dokter"></td>
+            <td>TKV</td>
+            <td>:</td>
+            <td><input type="text" id="tkv" name="tkv"></td>
+        </tr>
+    </table>
+    <br/>
+    <table border="1" width="700px" align="center">
+        <tr>
+            <th><b>OBSERVASI</b></th>
+        </tr>
+        <tr>
+            <td><textarea id="observasi" name="observasi" rows="20" cols="80"></textarea></td>
+        </tr>
+    </table>  
+</body>
+</html>
