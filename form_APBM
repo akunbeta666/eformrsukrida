@@ -36,12 +36,12 @@
         <tr>
             <td>Dokter Spesialis</td>
             <td>:</td>
-            <td><input type="text" id="dokter" name="dokter" value="Apakah bisa menarik data dpjp?"></td>
+            <td><input type="text" id="dokter" name="dokter" value=""></td>
         </tr>
         <tr>
             <td>Perawat Pelaksana</td>
             <td>:</td>
-            <td><input type="text" id="perawat" name="perawat" value="Apakah bisa menarik data dpjp?"></td>
+            <td><input type="text" id="perawat" name="perawat" value=""></td>
         </tr>
         <tr>
             <td>Waktu Mulai</td>
